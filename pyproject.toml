@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quant_utils"
+version = "0.1.0"
+description = "Shared utils for my quant trading journey"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Seking Alpha" }]
+
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.21",
+    "yfinance>=0.2.40"
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "ipykernel",
+    "black",
+    "ruff",
+    "pytest"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quant_utils"]
