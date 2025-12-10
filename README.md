@@ -1,15 +1,6 @@
-# Quant Trading Journey 
+# Quant Trading Journey BINDERIZED
 
-This is my personal project to become an independent quantitative trader using Python, machine learning and live executions.
+Showing how you can use with `pip install` and `import`.
 
-**Status (December 2025):** Phase 0 completed – Professional Python financial environment ready  
-**Current phase:** Starting Phase 1 – First systematic strategies
-
-## Quick Start – 
-
-```bash
-git clone https://github.com/YourUsername/Quant-trading-journey.git
-cd Quant-trading-journey
-python -m pip install -e .                  # Makes 'utils' importable
-python -m pip install -e ".[full]"          # Installs all libraries (only what's missing)
-jupyter lab
+To have a remote, temporary session where the content of the repo is present, press this badge to launch the session:  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Quant-trading-journey/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
